@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kő-Papír-Olló</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Kő Papír Olló</h1>
+        </header>
+
+        <div class="eredmenyjelzo">
+            <div id="felhasznalonev"class="ikon">Játékos</div>
+            <div id="szamitogepnev"class="ikon">Számítógép</div>
+            <span id="felhasznalopont">0</span>:<span id="szamitogeppont">0</span> 
+        </div>
+
+        <div class="eredmeny">
+            <p>Válassz!</p>
+        </div>
+
+        <div class="lehetosegek">
+            <div class="valasztas" id="ko">
+                <img src="images/ko.png" alt="" >
+            </div>
+            <div class="valasztas" id="papir">
+                <img src="images/papir.png" alt="">
+            </div>
+            <div class="valasztas" id="ollo">
+                <img src="images/ollo.png" alt="">
+            </div>
+        </div>
+
+        <div id="ujrainditas-div" class="elrejt">
+            <button id="ujrainditas">Újraindítás</button>
+        </div>
+
+        <div class="informacio-div">
+            Információ: 
+            Válasszon Kő, Papír vagy Olló közül. Minden nyertes meccs 1 pontot ér. A végén az nyer aki leghamarabb eléri a 3 pontot!
+        </div>
+
+        
+        <script src="app.js" charset="utf-8"></script>
+    </body>
+</html>
